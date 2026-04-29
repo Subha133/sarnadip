@@ -1,7 +1,7 @@
-import { FiMail, FiPhone, FiMapPin, FiArrowUpRight } from 'react-icons/fi'
+import { FiMail, FiPhone, FiMapPin, FiLinkedin, FiArrowUpRight } from 'react-icons/fi'
 import ScrollReveal from '@/components/ui/ScrollReveal'
 
-interface ContactData { title: string; email: string; phone: string; location: string }
+interface ContactData { title: string; email: string; phone: string; location: string; linkedin: string }
 
 interface ContactItem {
   key: keyof ContactData
@@ -32,6 +32,13 @@ const items: ContactItem[] = [
     Icon: FiMapPin,
     getValue: c => c.location,
     getHref:  c => `https://maps.google.com?q=${encodeURIComponent(c.location)}`,
+  },
+  {
+    key: 'linkedin',
+    label: 'LinkedIn',
+    Icon: FiLinkedin,
+    getValue: c => 'Connect with me',
+    getHref:  c => c.linkedin,
   },
 ]
 
@@ -78,8 +85,8 @@ export default function ContactSection({ contact }: { contact: ContactData }) {
                 <a
                   key={item.key}
                   href={item.getHref(contact)}
-                  target={item.key === 'location' ? '_blank' : undefined}
-                  rel={item.key === 'location' ? 'noopener noreferrer' : undefined}
+                  target={item.key === 'location' || item.key === 'linkedin' ? '_blank' : undefined}
+                  rel={item.key === 'location' || item.key === 'linkedin' ? 'noopener noreferrer' : undefined}
                   className="group flex items-center gap-5 p-6 rounded-2xl border border-white/[0.08] hover:border-accent/40 hover:bg-white/5 transition-all duration-300"
                 >
                   <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-accent/15 flex items-center justify-center group-hover:bg-accent transition-all duration-300">
