@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base resets ─────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #0D0D12;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% -10%, #7C3AED18 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 110%, #06B6D418 0%, transparent 55%);
+  color: #F0EEFF;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Custom scrollbar ────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0D0D12; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #7C3AED, #06B6D4); border-radius: 4px; }
+
+/* ─── Noise grain overlay ─────────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.4;
+}
+
+/* ─── Utility layers ──────────────────────────────────────── */
+@layer utilities {
+  .section-padding {
+    @apply py-20 md:py-28 px-6 md:px-12 lg:px-20;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-accent text-white
+           px-7 py-3 rounded-full text-sm font-medium tracking-wide
+           transition-all duration-300
+           hover:bg-accent-dark hover:shadow-accent hover:-translate-y-0.5
+           active:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 border border-white/25 text-text-primary
+           px-7 py-3 rounded-full text-sm font-medium tracking-wide
+           transition-all duration-300
+           hover:border-accent hover:text-accent hover:-translate-y-0.5;
+  }
+
+  .dot-pattern {
+    background-image: radial-gradient(circle, #7C3AED25 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
+
+/* ─── Skill logo grayscale → colour ──────────────────────── */
+.skill-logo {
+  filter: grayscale(100%) opacity(0.6);
+  transition: filter 0.4s ease, transform 0.4s ease;
+}
+.skill-logo:hover {
+  filter: grayscale(0%) opacity(1);
+  transform: scale(1.08);
+}
+
+/* ─── Scroll-reveal base state (JS toggles .revealed) ────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.from-left  { transform: translateX(-28px); }
+.reveal.from-right { transform: translateX(28px); }
+.reveal.revealed   { opacity: 1; transform: translate(0, 0); }

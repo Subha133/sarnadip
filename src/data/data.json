@@ -1,0 +1,147 @@
+{
+  "site": {
+    "name": "Swarnadip Dey Portfolio",
+    "navigation": [
+      { "name": "Home",      "link": "#home" },
+      { "name": "About",     "link": "#about" },
+      { "name": "Service",   "link": "#service" },
+      { "name": "Skills",    "link": "#skills" },
+      { "name": "Tools",     "link": "#tools" },
+      { "name": "Portfolio", "link": "#portfolio" },
+      { "name": "Contact",   "link": "#contact" }
+    ]
+  },
+  "hero": {
+    "name": "Swarnadip Dey",
+    "title": ["Graphic Designer", "Motion Graphics Artist", "Video Editor"],
+    "photo": "/PROFILE.png",
+    "cta": { "primary": "Let's Talk", "secondary": "Hire Me" },
+    "social_links": [
+      { "platform": "Instagram", "url": "https://www.instagram.com/theswarna_studio/" },
+      { "platform": "WhatsApp",  "url": "https://wa.me/916291187114" },
+      { "platform": "Behance",   "url": "https://www.behance.net/swarnadipdey" }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm Swarnadip Dey, a passionate Graphic Designer, Motion Graphics Artist, and Video Editor with a strong eye for visual storytelling. I specialize in creating engaging designs, dynamic motion visuals, and compelling video content that connect with audiences."
+  },
+  "skills_section": {
+    "title": "My Skills",
+    "description": "Tools and software I use to create professional designs and motion graphics.",
+    "software_logos": [
+      { "name": "Adobe Photoshop",    "image": "/images/skills/photoshop.png" },
+      { "name": "Adobe Illustrator",  "image": "/images/skills/illustrator.png" },
+      { "name": "Adobe After Effects","image": "/images/skills/aftereffects.png" },
+      { "name": "Adobe Premiere Pro", "image": "/images/skills/premierepro.png" },
+      { "name": "Adobe InDesign",     "image": "/images/skills/indesign.png" },
+      { "name": "Adobe XD",           "image": "/images/skills/adobexd.png" },
+      { "name": "Figma",              "image": "/images/skills/figma.png" },
+      { "name": "Canva",              "image": "/images/skills/canva.png" }
+    ]
+  },
+  "tools_section": {
+    "title": "Tools & Technologies",
+    "description": "A comprehensive list of tools I work with daily.",
+    "tools": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe After Effects",
+      "Adobe Premiere Pro",
+      "Adobe InDesign",
+      "Adobe XD",
+      "Canva",
+      "Figma",
+      "Sketch",
+      "Blender",
+      "Cinema 4D",
+      "DaVinci Resolve",
+      "Final Cut Pro",
+      "Affinity Photo",
+      "Affinity Designer",
+      "CorelDRAW",
+      "GIMP",
+      "Inkscape",
+      "LumaFusion",
+      "CapCut",
+      "VN Video Editor"
+    ]
+  },
+  "services": {
+    "title": "Design Services",
+    "items": [
+      "Business Cards & Stationery",
+      "Flyers, Posters, Brochures",
+      "Packaging Design",
+      "Ad Banner Design (Google, Facebook, Instagram, etc.)",
+      "Magazine Layouts",
+      "Book Covers",
+      "Event Invitations",
+      "Cards & Menus",
+      "Signage Design",
+      "Brand Identity Design",
+      "Packaging Design Mockups & Presentations",
+      "Website Layouts",
+      "App / Interface Design",
+      "Landing Page Design",
+      "Video Editing",
+      "Logo Animations",
+      "Social Media Motion Graphics"
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "layout": "carousel",
+    "projects": [
+      { "title": "Durga Puja 2025 Campaign Designs", "category": "Graphic Design",    "image": "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168276/LA_G3_kpwyrw.jpg" },
+      { "title": "Calcutta Football League Visuals",  "category": "Motion Graphics",   "image": "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164088/wed_wallpeper_diine8.jpg" },
+      { "title": "Promotional Video Projects",        "category": "Video Editing",     "image": "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164086/today_ovabmv.jpg" },
+      { "title": "Football Match Poster Design",      "category": "Graphic Design",    "image": "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164081/next_match_final_n5a1ka.jpg" },
+      { "title": "Brand Identity - Suraj Mahato",     "category": "Graphic Design",    "image": "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164079/suraj_mahato_mycihg.jpg" },
+      { "title": "Event Campaign Draft",              "category": "Motion Graphics",   "image": "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164077/match_no_7_darft_eleg44.jpg" }
+    ]
+  },
+  "my_work": {
+    "title": "My Work",
+    "images": [
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168276/LA_G3_kpwyrw.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164088/wed_wallpeper_diine8.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164086/today_ovabmv.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164081/next_match_final_n5a1ka.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164079/suraj_mahato_mycihg.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164077/match_no_7_darft_eleg44.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164072/poster_cafe_refiwf.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164074/bss_x_univox_1_bf17lv.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164069/bss_x_univox_2_p63wfy.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164066/nextmatch_wmbqtb.png",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164071/10K_fb_qyb9lk.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164070/banner_for_consecrt1_bnivrh.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164072/slow_kiss_q1g1pw.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164076/TCF_SOCAL_MEDIA_POSTER_ppmxsy.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164080/MATCH_day_noshvt.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168279/poster_6_La_jpsblo.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168285/LA_POSTER_1_3_ovghvr.png",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168324/behala_club_opening_mhnpav.png",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168410/4102025_surochi_d94bdu.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168542/poster_99_p2pdoa.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168544/ANATH_01_gxuwop.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168542/poster_ayur_3121_ezkfig.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168545/poster_67_vtqrp9.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168411/choch_graphic_utd9eo.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168283/poster_6_ios6tl.png",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168283/Scholarships_b8cmgw.png",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168324/6th_behala_w7wqbn.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168548/7-14_feb_ffo9ns.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773168281/poster_5_sqkhlc.png",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164089/womens_ind_cclu9u.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164069/next_match_vp3aar.jpg",
+      "https://res.cloudinary.com/dfstpotvz/image/upload/f_auto,q_auto,w_800/v1773164068/28_8_25_ifn47g.png"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "email":    "deyswarnadip6@gmail.com",
+    "phone":    "+91 6291187114",
+    "location": "Kolkata, India"
+  }
+}
