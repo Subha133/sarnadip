@@ -17,9 +17,10 @@
     "photo": "/PROFILE.png",
     "cta": { "primary": "Let's Talk", "secondary": "Hire Me" },
     "social_links": [
-      { "platform": "Instagram", "url": "https://www.instagram.com/theswarna_studio/" },
+      { "platform": "Instagram", "url": "https://www.instagram.com/stravonmediaagency" },
       { "platform": "WhatsApp",  "url": "https://wa.me/916291187114" },
-      { "platform": "Behance",   "url": "https://www.behance.net/swarnadipdey" }
+      { "platform": "Behance",   "url": "https://www.behance.net/swarnadipdey" },
+      {"platform": "LinkedIn",  "url": "https://www.linkedin.com/in/swarnadip-dey-66b4b9225"}
     ]
   },
   "about": {
