@@ -71,18 +71,6 @@ const WorkSubsection = () => {
   );
 }
 
-const categoryColours: Record<string, string> = {
-  'Graphic Design': 'bg-accent/15 text-accent-light',
-  'Motion Graphics': 'bg-accent-cyan/15 text-accent-cyan',
-  'Video Editing': 'bg-emerald-500/15 text-emerald-400',
-}
-
-const placeholderGradients = [
-  'from-accent/20 to-accent/5',
-  'from-accent-cyan/20 to-accent-cyan/5',
-  'from-emerald-500/20 to-emerald-500/5',
-]
-
 export default function PortfolioSection({ portfolio }: { portfolio: PortfolioData }) {
   const { projects } = portfolio
   const [active, setActive] = useState(0)

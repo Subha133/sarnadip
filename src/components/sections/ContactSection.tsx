@@ -37,7 +37,7 @@ const items: ContactItem[] = [
     key: 'linkedin',
     label: 'LinkedIn',
     Icon: FiLinkedin,
-    getValue: c => 'Connect with me',
+    getValue: c => { void c; return 'Connect with me' },
     getHref:  c => c.linkedin,
   },
 ]
